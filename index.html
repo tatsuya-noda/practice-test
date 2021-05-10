@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html>
+  <head> 
+    <link rel="stylesheet" href="stylesheet.css">
+    <title>模擬試験</title>      
+	<meta charset="UTF-8" />
+  </head>
+　<body>
+	<h2>模擬試験</h2>
+
+<p id="target">click to start</p>
+<input type="button" value="スタート" onclick="startfnc()"><br>
+
+<div id="answer_list" style="background:#c2ecff; border:1px solid #7dc1e1; padding:2px 10px; ">解答欄　
+                  															
+<label><input type="radio" name="answer" value="1" class="" /> ア</label>
+<label><input type="radio" name="answer" value="2" class="" /> イ</label>
+<label><input type="radio" name="answer" value="3" class="" /> ウ</label>
+<label><input type="radio" name="answer" value="4" class="" /> エ</label>
+							                                </div>
+  <div class="time_btn" >
+                  経過時間：<b><font size="2" id="exam_use_time">0秒</font></b>
+                </div>
+	<script src="sample.js"></script>
+  </body>
+
+</html>
